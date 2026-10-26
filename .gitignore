@@ -1,0 +1,38 @@
+industrial-agents-hackathon-2026/
+.env
+regulations
+project_detail/
+.DS_Store
+data/
+__pycache__/
+CLAUDE.md
+Industrial Agents Hackathon Kick-Off.pdf
+certivity-agent/
+industrial-ai-hackathon/
+
+web/node_modules/
+web/dist/
+deploy/oracle/flame.env
+
+# per-run work folders of the "Next versions" analysis (symlinks to regulation PDFs)
+out/runs/*/upgrade/
+
+# kept locally, not pushed: run outputs, input data (licensed regulation PDFs), notes and screenshots
+out/
+cases/
+subgoal/
+docs/
+result.md
+overflow.md
+deployment.md
+presentation.md
+*.png
+!web/public/*.png
+
+# Markdown stays local, except the original README and the data licence
+*.md
+!/README.md
+!/LICENSE-DATA.md
+
+# deployment scripts stay local
+deploy/

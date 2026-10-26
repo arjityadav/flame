@@ -1,0 +1,9 @@
+# Only code goes into the image; the licensed data is mounted at run time (deploy/oracle/docker-compose.yml).
+*
+!pyproject.toml
+!uv.lock
+!app/
+!pipeline/
+!web/dist/
+!deploy/oracle/start.sh
+**/__pycache__
